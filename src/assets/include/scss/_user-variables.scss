@@ -1,0 +1,21 @@
+// user-variables.scss
+// Use this to overwrite Bootstrap and Front variables
+//
+
+$teal-darker: #007A66 !default;
+$teal-lightest: #52D7C0 !default;
+
+$primary: $teal;
+// $font-size-base: .875rem;
+$secondary: $teal-darker;
+
+// Front's primary color has lighter as well as darker color versions,
+// and they also need to be changed upon changing the primary color to a different hex code - otherwise the color of some blocks might look not professional.
+// Here is a list of colors that associate these changes:
+$primary-darker:                                              $teal-darker;
+$primary-lighter:                                             $teal-lightest;
+$info:                                                        $teal-lightest;
+
+
+// The color of the SVG loader should be modified manually.
+// See assets/svg/preloaders/circle-preloader.svg
