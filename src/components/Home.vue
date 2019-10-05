@@ -60,7 +60,7 @@
         <!-- Clients -->
         <div class="container position-absolute right-0 bottom-0 left-0 space-2">
           <div class="text-center mb-4">
-            <h2 class="u-divider u-divider--text-alt">Startups from C.O.D.E</h2>
+            <h2 class="u-divider u-divider--text-alt" style="color: white">Startups from C.O.D.E</h2>
           </div>
           <div class="js-slick-carousel u-slick" data-autoplay="true" data-speed="5000" data-infinite="true"
             data-slides-show="6" data-responsive='[{
@@ -371,21 +371,7 @@
     </div>
     <!-- End Icon Blocks Section -->
   </main>
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+
   </div>
 </template>
 
@@ -402,13 +388,14 @@ export default {
 </script>
 
 <style>
+
+  
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 h1, h2 {
