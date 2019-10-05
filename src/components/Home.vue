@@ -36,7 +36,7 @@
               </div>
 
               <div class="col-md-2 mb-2">
-                <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Signup</button>
+                <button type="submit" class="btn btn-block btn-success transition-3d-hover">Signup</button>
               </div>
             </div>
 
@@ -174,7 +174,7 @@
             <div class="col-lg-4 mb-9 mb-lg-0">
               <!-- Info -->
               <div class="mb-5">
-                <h3 class="h4 font-weight-semi-bold">Tech Entreprenuership at <span class="text-primary">Babson</span>
+                <h3 class="h4 font-weight-semi-bold">Tech Entreprenuership at <span style="color: green">Babson</span>
                 </h3>
                 <p>Technology lowers the barrier for business. We're here to help you:</p>
               </div>
@@ -203,18 +203,7 @@
             </div>
 
             <div class="col-lg-7 position-relative">
-              <div class="pl-md-9">
-                <img class="img-fluid shadow rounded" src="../assets/img/700x525/img1.jpg" alt="Image Description">
-              </div>
-
-              <!-- SVG Component -->
-              <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                <figure class="ie-abstract-shapes-2">
-                  <img class="js-svg-injector" src="../assets/svg/components/abstract-shapes-2.svg"
-                    alt="Image Description" data-parent="#SVGmockupBg">
-                </figure>
-              </div>
-              <!-- End SVG Component -->
+             <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img2.jpg" alt="Image Description">
             </div>
           </div>
           <!-- End Mockup Block -->
@@ -260,12 +249,7 @@
               </div>
 
               <!-- SVG Component -->
-              <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                <figure class="ie-abstract-shapes-4">
-                  <img class="js-svg-injector" src="../assets/svg/components/abstract-shapes-4.svg"
-                    alt="Image Description" data-parent="#SVGmockupBg">
-                </figure>
-              </div>
+
               <!-- End SVG Component -->
             </div>
           </div>
@@ -289,17 +273,11 @@
 
             <div class="col-lg-7 position-relative">
               <div class="pl-md-9">
-                <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img3.jpg" alt="Image Description">
+              <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img2.jpg" alt="Image Description">
+
               </div>
 
-              <!-- SVG Component -->
-              <div class="position-absolute bottom-0 left-0 w-75 z-index-n1">
-                <figure class="ie-abstract-shapes-3">
-                  <img class="js-svg-injector" src="../assets/svg/components/abstract-shapes-3.svg"
-                    alt="Image Description" data-parent="#SVGmockupBg">
-                </figure>
-              </div>
-              <!-- End SVG Component -->
+
             </div>
           </div>
           <!-- End Mockup Block -->
@@ -388,6 +366,7 @@ export default {
 </script>
 
 <style>
+
 
   
 #app {

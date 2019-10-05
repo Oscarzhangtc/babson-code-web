@@ -19,7 +19,7 @@
                   d="M18,46L18,46C8,46,0,38,0,28v0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6V28C35.9,38,27.9,46,18,46z" />
                 <!-- <path class="fill-white" d="M17.4,34V18.3h10.2v2.9h-6.4v3.4h4.8v2.9h-4.8V34H17.4z"/> -->
               </svg>
-              <span class="u-header__navbar-brand-text">&lt;CODE/&gt;</span>
+              <span class="u-header__navbar-brand-text" style="color: green">&lt;CODE/&gt;</span>
             </a>
             <!-- End Logo -->
   
@@ -37,19 +37,19 @@
               <ul class="navbar-nav u-header__navbar-nav">
                 <!-- Home -->
                 <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link" href="index.html">Home</a>
+                  <a class="nav-link u-header__nav-link" href="/">Home</a>
                 </li>
                 <!-- End Home -->
   
                 <!-- Selling -->
                 <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link" href="coming-soon.html">About Us</a>
+                  <a class="nav-link u-header__nav-link" href="/aboutus">About Us</a>
                 </li>
                 <!-- End Selling -->
   
                 <!-- Button -->
                 <li class="nav-item u-header__nav-last-item">
-                  <a class="btn btn-sm btn-primary transition-3d-hover"
+                  <a class="btn btn-sm btn-success transition-3d-hover"
                     href="coming-soon.html"
                     target="_blank">
                     Our Community
