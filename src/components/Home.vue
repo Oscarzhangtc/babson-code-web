@@ -215,9 +215,8 @@
             <div class="col-lg-4 mb-9 mb-lg-0">
               <!-- Info -->
               <div class="mb-5">
-                <h3 class="h4 font-weight-semi-bold">The Sky's the Limit</h3>
-                <p>Applications are open during a 4-week window every semester. We love to see the following in our
-                  applicants:</p>
+                <h3 class="h4 font-weight-semi-bold">Housing Applications are Open!</h3>
+                <p style="color: black">Applications are due October 15th. We love to see the following in our applicants:</p>
               </div>
 
               <ul class="list-unstyled text-secondary font-size-1">
@@ -245,7 +244,7 @@
 
             <div class="col-lg-7 position-relative">
               <div class="pl-md-9">
-                <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img2.jpg" alt="Image Description">
+                  <button></button>
               </div>
 
               <!-- SVG Component -->

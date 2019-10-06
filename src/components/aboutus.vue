@@ -60,7 +60,7 @@
     <!-- End Divider -->
 
     <!-- About Section -->
-    <div class="container space-2 space-lg-3">
+    <div class="container space-2">
       <div class="row justify-content-lg-between">
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h2 class="font-weight-semi-bold">Tools should adapt to the user, not the other way around.</h2>
@@ -74,7 +74,7 @@
     <!-- End About Section -->
 
     <!-- Workshop Section -->
-    <div class="container space-2 space-lg-3">
+    <div class="container space-2">
       <div class="row justify-content-lg-between">
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h2 class="font-weight-semi-bold">Learn.</h2>
