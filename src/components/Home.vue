@@ -313,7 +313,7 @@
 
                 <h3 class="h4 mb-3">Apply for Housing</h3>
                 <p class="mb-4">Unfortunately, our application deadline has passed!</p>
-                <a class="btn btn-sm btn-soft-danger transition-3d-hover" disabled>
+                <a class="btn btn-sm btn-soft-danger transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
                   Apply
                   <span class="fas fa-angle-right ml-2"></span>
                 </a>
@@ -335,7 +335,7 @@
 
                 <h3 class="h4 mb-3">Explore our Community</h3>
                 <p class="mb-4">Our residents are amazing! Check out what they've been up to.</p>
-                <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="coming-soon.html">
+                <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="/aboutus">
                   Our Community
                   <span class="fas fa-angle-right ml-2"></span>
                 </a>
