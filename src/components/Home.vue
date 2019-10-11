@@ -8,22 +8,13 @@
         <div class="w-lg-65 mb-5">
           <div class="w-lg-65 w-xl-50 mb-5">
             <!-- <h1 class="display-4 text-white">Sell your <strong class="font-weight-semi-bold">house</strong> online</h1> -->
-            <h1 class="display-4 text-white" style="text-align: left"><span>Join our <strong
-                  class="font-weight-semi-bold">community</strong></span></h1>
+            <h1 class="display-4 text-white" style="text-align: left; font-size: 390%"><span>Join our <strong
+                  class="font-weight-semi-bold" >community</strong></span></h1>
           </div>
 
           <!-- Form -->
           <form class="js-validate" action="https://usebasin.com/f/37b877e6c3a6" method="POST">
             <div class="form-row mb-2">
-              <!-- <div class="col-6 col-md-5 mb-2">
-                <div class="js-form-message">
-                  <label class="sr-only" for="signupSrName">Name</label>
-                  <div class="input-group">
-                    <input type="text" class="form-control" name="name" id="signupSrName" placeholder="Name"
-                      aria-label="Name" required data-msg="Name must contain only letters.">
-                  </div>
-                </div>
-              </div> -->
 
               <div class="col-6 col-md-5 mb-2">
                 <div class="js-form-message">
@@ -89,31 +80,36 @@
                    "slidesToShow": 2
                  }
                }]'>
+
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/airbnb-white.svg'" alt="Image Description">
-              
+              <a href="https://apps.apple.com/us/app/esto/id1425521172" style="color: #90EE90">Esto</a>
             </div>
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/samsung-white.svg'" alt="Image Description">
+              <a style="color: white"><span style="color:red; font-style: italic">X</span><span style="font-family: Arial">highlight</span></a>
             </div>
+
+            <div class="js-slide ">
+              <a href="https://www.vinci-vr.com/" style="color: white"><span style="font-weight: bold">V</span>inci<span style="font-weight: bold">V</span>r</a>
+            </div>
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/netflix-white.svg'" alt="Image Description">
+              <a href="https://bytescoding.com" style="color:#7AD7F0;">Bytes</a>
             </div>
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/uber-white.svg'" alt="Image Description">
+              <a href="https://www.babobikes.com" style="color: white"><span style="color:green">B</span>aboBikes</a>
             </div>
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/google-white.svg'" alt="Image Description">
+              <a style="color: white">Frontdex</a>
             </div>
+
             <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/amazon-white.svg'" alt="Image Description">
+              <a href="https://www.linkedin.com/company/jinn-tech-llc/about/" style="color: white">Jinn, LLC </a>
             </div>
-            <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/spotify-white.svg'" alt="Image Description">
-            </div>
-            <div class="js-slide">
-              <img class="u-clients ml-0" v-bind:src="'../assets/svg/clients-logo/paypal-white.svg'" alt="Image Description">
-            </div>
+
           </div>
         </div>
         <!-- End Clients -->
@@ -130,7 +126,7 @@
               href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="true">
               <div class="d-md-flex justify-content-md-center align-items-md-center">
                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-3">
-                  <img class="js-svg-injector" v-bind:src="'../assets/svg/icons/icon-7.svg'" alt="SVG"
+                  <img class="js-svg-injector" src="../assets/svg/icons/icon-2.svg" alt="SVG"
                     data-parent="#SVGmockupBg">
                 </figure>
                 About
@@ -201,9 +197,14 @@
               </ul>
               <!-- End Info -->
             </div>
-
             <div class="col-lg-7 position-relative">
-             <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img2.jpg" alt="Image Description">
+            <a href="http://blogs.babson.edu/news/2017/03/17/vinci-bringing-design-into-the-3d-world/">
+            <img class="img-fluid shadow-sm rounded transition-3d-hover" style="height: 500px" src="../assets/local/vr.png" alt="Image Description">
+
+            </a>
+             <p class="mb-2">
+              (VinciVr pilot on Babson Campus)
+              </p>
             </div>
           </div>
           <!-- End Mockup Block -->
@@ -244,7 +245,10 @@
 
             <div class="col-lg-7 position-relative">
               <div class="pl-md-9">
-                  <button></button>
+                <a class="btn btn-lg btn-success transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
+                  Apply Now!
+                  <span class="fas fa-angle-right ml-2"></span>
+                </a>
               </div>
 
               <!-- SVG Component -->
@@ -261,19 +265,23 @@
             <div class="col-lg-4 mb-9 mb-lg-0">
               <!-- Info -->
               <div class="mb-5">
-                <h3 class="h4 font-weight-semi-bold">Our Residents are <span class="text-primary">Amazing</span></h3>
+                <h3 class="h4 font-weight-semi-bold">Our Residents are <span class="text-success">Problem Solvers</span></h3>
                 <p>Check out who they are and what they've been up to!</p>
               </div>
 
-              <a class="btn btn-soft-indigo" href="coming-soon.html ">Explore Community <span
+              <a class="btn btn-soft-indigo" href="/about">Explore Community <span
                   class="fas fa-chevron-right font-size-1"></span></a>
               <!-- End Info -->
             </div>
 
             <div class="col-lg-7 position-relative">
               <div class="pl-md-9">
-              <img class="img-fluid shadow-sm rounded" src="../assets/img/700x525/img2.jpg" alt="Image Description">
-
+              <a href="https://www.linkedin.com/pulse/babson-wins-money2020-hackathon-waseem-shabout/">
+              <img class="img-fluid shadow-sm rounded transition-3d-hover" src="../assets/local/hackathon.png" alt="Image Description">
+              </a>
+              <p class="mb-2">
+              (CODE Winning Money20/20 hackathon)
+              </p>
               </div>
 
 
@@ -312,8 +320,8 @@
                 <!-- End SVG Icon -->
 
                 <h3 class="h4 mb-3">Apply for Housing</h3>
-                <p class="mb-4">Unfortunately, our application deadline has passed!</p>
-                <a class="btn btn-sm btn-soft-danger transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
+                <p class="mb-4">Our housing application are open! All applications are due October 15th.</p>
+                <a class="btn btn-sm btn-soft-success transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
                   Apply
                   <span class="fas fa-angle-right ml-2"></span>
                 </a>
@@ -335,7 +343,7 @@
 
                 <h3 class="h4 mb-3">Explore our Community</h3>
                 <p class="mb-4">Our residents are amazing! Check out what they've been up to.</p>
-                <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="/aboutus">
+                <a class="btn btn-sm btn-soft-success transition-3d-hover" href="/aboutus">
                   Our Community
                   <span class="fas fa-angle-right ml-2"></span>
                 </a>
@@ -366,7 +374,13 @@ export default {
 
 <style>
 
-
+.js-slide{
+font-size: 130%;
+}
+.js-slide:hover {
+ 
+  font-weight: bold;
+}
   
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

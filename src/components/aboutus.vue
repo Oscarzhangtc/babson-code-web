@@ -21,7 +21,6 @@
     <div class="container space-top-1 space-bottom-2 space-bottom-lg-3">
       <div class="row justify-content-lg-center">
         <div class="col-sm-4 col-lg-3 mb-7 mb-sm-0">
-         <img class="img-fluid rounded-circle" src="../assets/img/100x100/img1.jpg" alt="Image Description">
           <!-- Stats -->
           <div class="text-center">
             <span class="d-block h2 font-weight-semi-bold text-uppercase mb-0">2015</span>

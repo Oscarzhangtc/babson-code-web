@@ -43,16 +43,16 @@
   
                 <!-- Selling -->
                 <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link" href="/aboutus">About Us</a>
+                  <a class="nav-link u-header__nav-link" href="/about">About Us</a>
                 </li>
                 <!-- End Selling -->
   
                 <!-- Button -->
                 <li class="nav-item u-header__nav-last-item">
                   <a class="btn btn-sm btn-success transition-3d-hover"
-                    href="coming-soon.html"
-                    target="_blank">
-                    Our Community
+                    href="/contact">
+                    
+                    Contact Us
                   </a>
                 </li>
                 <!-- End Button -->
@@ -74,6 +74,6 @@ export default {
 }
 </script>
 
-<style lang="">
-    
+<style>
+
 </style>

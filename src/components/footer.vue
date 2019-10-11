@@ -62,7 +62,7 @@
                   required data-msg="Please enter a valid email address." data-error-class="u-has-error"
                   data-success-class="u-has-success">
                 <div class="input-group-append">
-                  <button class="btn btn-primary" type="submit" id="subscribeButton">Subscribe</button>
+                  <button class="btn btn-soft-success" type="submit" id="subscribeButton">Subscribe</button>
                 </div>
               </div>
             </form>
