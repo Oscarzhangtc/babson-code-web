@@ -3,11 +3,11 @@
     <!-- ========== HEADER ========== -->
     <header id="header" class="u-header u-header--floating-md">
       <div id="logoAndNav" class="container">
-        <div class="u-header__section u-header--floating__inner">
+        <div class="u-header__section nav-shadow u-header--floating__inner">
           <!-- Nav -->
-          <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+          <nav class="js-mega-menu navbar  navbar-expand-md u-header__navbar u-header__navbar--no-space">
             <!-- Logo -->
-            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="index.html"
+            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="/"
               aria-label="Front">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="46px" height="46px" viewBox="0 0 46 46" xml:space="preserve" style="margin-bottom: 0;">
@@ -19,7 +19,7 @@
                   d="M18,46L18,46C8,46,0,38,0,28v0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6V28C35.9,38,27.9,46,18,46z" />
                 <!-- <path class="fill-white" d="M17.4,34V18.3h10.2v2.9h-6.4v3.4h4.8v2.9h-4.8V34H17.4z"/> -->
               </svg>
-              <span class="u-header__navbar-brand-text" style="color: green">&lt;CODE/&gt;</span>
+              <span class="u-header__navbar-brand-text" style="color: #42b983">&lt;CODE/&gt;</span>
             </a>
             <!-- End Logo -->
   
@@ -37,13 +37,13 @@
               <ul class="navbar-nav u-header__navbar-nav">
                 <!-- Home -->
                 <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link" href="/">Home</a>
+                  <router-link to="/"><a class="nav-link u-header__nav-link">Home</a></router-link>
                 </li>
                 <!-- End Home -->
   
                 <!-- Selling -->
                 <li class="nav-item u-header__nav-item">
-                  <a class="nav-link u-header__nav-link" href="/about">About Us</a>
+                  <router-link to="/about"><a class="nav-link u-header__nav-link">About Us</a></router-link>
                 </li>
                 <!-- End Selling -->
   
@@ -75,5 +75,13 @@ export default {
 </script>
 
 <style>
+a {
+  color: #42b983;
+}
+
+a:hover{
+  color: #228b22;
+}
+
 
 </style>

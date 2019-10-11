@@ -25,7 +25,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="col-md-2 mb-2">
                 <button type="submit" class="btn btn-block btn-success transition-3d-hover">Signup</button>
               </div>
@@ -177,19 +176,19 @@
 
               <ul class="list-unstyled text-secondary font-size-1">
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
                     Learn and leverage existing technologies
                   </span>
                 </li>
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
                     Disrupt industries
                   </span>
                 </li>
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
                     Start a tech-based venture
                   </span>
@@ -198,7 +197,7 @@
               <!-- End Info -->
             </div>
             <div class="col-lg-7 position-relative">
-            <a href="http://blogs.babson.edu/news/2017/03/17/vinci-bringing-design-into-the-3d-world/">
+            <a class="btn " href="http://blogs.babson.edu/news/2017/03/17/vinci-bringing-design-into-the-3d-world/">
             <img class="img-fluid shadow-sm rounded transition-3d-hover" style="height: 500px" src="../assets/local/vr.png" alt="Image Description">
 
             </a>
@@ -213,7 +212,7 @@
           aria-labelledby="pills-two-example1-tab">
           <!-- Mockup Block -->
           <div class="row justify-content-lg-between align-items-lg-center">
-            <div class="col-lg-4 mb-9 mb-lg-0">
+            <div class="col-lg-3 mb-9 mb-lg-0">
               <!-- Info -->
               <div class="mb-5">
                 <h3 class="h4 font-weight-semi-bold">Housing Applications are Open!</h3>
@@ -222,33 +221,35 @@
 
               <ul class="list-unstyled text-secondary font-size-1">
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
-                    Engaged at CODE events
+                    Curiosity
                   </span>
                 </li>
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
-                    Passion for technology
+                    Active
                   </span>
                 </li>
                 <li class="media my-3">
-                  <span class="fas fa-check text-primary mt-1 mr-3"></span>
+                  <span class="fas fa-check text-success mt-1 mr-3"></span>
                   <span class="media-body">
-                    Strong initiative
+                    Driven
                   </span>
                 </li>
               </ul>
               <!-- End Info -->
             </div>
 
-            <div class="col-lg-7 position-relative">
-              <div class="pl-md-9">
-                <a class="btn btn-lg btn-success transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
-                  Apply Now!
-                  <span class="fas fa-angle-right ml-2"></span>
+            <div class="col-lg-8 position-relative">
+              <div class="pl-md-8">
+                <a href="https://babsoncode1.typeform.com/to/infovT">
+                  <img img class="img-fluid shadow-sm rounded transition-3d-hover" src="../assets/local/housing.png" alt="Apply Now!">
                 </a>
+                <p style="font-weight:bold; color: #42b983" class="mb-2">
+                Click on picture to apply!
+                </p>
               </div>
 
               <!-- SVG Component -->
@@ -269,7 +270,7 @@
                 <p>Check out who they are and what they've been up to!</p>
               </div>
 
-              <a class="btn btn-soft-indigo" href="/about">Explore Community <span
+              <a class="btn btn-soft-success" href="/about">Explore Community <span
                   class="fas fa-chevron-right font-size-1"></span></a>
               <!-- End Info -->
             </div>
@@ -322,9 +323,8 @@
                 <h3 class="h4 mb-3">Apply for Housing</h3>
                 <p class="mb-4">Our housing application are open! All applications are due October 15th.</p>
                 <a class="btn btn-sm btn-soft-success transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
-                  Apply
-                  <span class="fas fa-angle-right ml-2"></span>
-                </a>
+                Apply</a>
+
               </div>
             </article>
             <!-- End Card -->
@@ -343,7 +343,7 @@
 
                 <h3 class="h4 mb-3">Explore our Community</h3>
                 <p class="mb-4">Our residents are amazing! Check out what they've been up to.</p>
-                <a class="btn btn-sm btn-soft-success transition-3d-hover" href="/aboutus">
+                <a class="btn btn-sm btn-soft-success transition-3d-hover" href="/about">
                   Our Community
                   <span class="fas fa-angle-right ml-2"></span>
                 </a>
@@ -355,7 +355,6 @@
       </div>
     </div>
     <!-- End Icon Blocks Section -->
-  </main>
 
   </div>
 </template>
@@ -404,9 +403,9 @@ li {
   margin: 0 10px;
 }
 
-a {
-  color: #42b983;
-}
+
+
+
 
 
 

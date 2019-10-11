@@ -65,7 +65,7 @@
 
       <div class="w-lg-80 mx-auto">
         <!-- Contacts Form -->
-        <form class="js-validate">
+        <form action="https://usebasin.com/f/37b877e6c3a6" class="js-validate">
           <div class="row">
             <!-- Input -->
             <div class="col-sm-6 mb-6">
@@ -167,12 +167,9 @@
     <!-- insert google map here -->
     </div>
     <!-- End Google Map -->
-    </div>
-
-     
-
-    </div>
-    </div>
+  
+  
+  </div>  
 </template>
 
 <script>

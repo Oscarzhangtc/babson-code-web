@@ -4,11 +4,10 @@
   <main id="content" role="main">
     <!-- Hero Section -->
     <div class="container space-2 space-top-md-5 space-top-lg-4">
-      <div class="w-lg-80 text-center mx-lg-auto">
-        <div class="mb-11">
-          <h1 class="display-4 font-weight-semi-bold" style="color: green">About Us</h1>
-
-          <p class="lead font-weight-normal"><span class="font-weight-semi-bold" style="color: black">CODE</span> (Community Of Developers and Entrepreneurs) is the heart of technology and entrepreneurship at Babson.
+      <div class="mb-10 w-lg-80 text-center mx-lg-auto">
+        <div>
+          <h1 class="display-4 font-weight-semi-bold" >About Us</h1>
+          <p class="lead font-weight-normal"><span class="font-weight-semi-bold" style="color: green">CODE</span> (Community Of Developers and Entrepreneurs) is the heart of technology and entrepreneurship at Babson.
         </p>
         </div>
       </div>
@@ -61,12 +60,13 @@
     <!-- About Section -->
     <div class="container space-2">
       <div class="row justify-content-lg-between">
-        <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="col-lg-5 mb-5 mb-lg-0">
           <h2 class="font-weight-semi-bold">Tools should adapt to the user, not the other way around.</h2>
         </div>
         <div class="col-lg-6">
-        <p>We are proud to say most of our residents are working on solving tough problems around the world they are passionate about through a startup. </p> 
         <p>We view technology as a tool to form disruptive companies that change the world. CODE is a platform to find co-founders, collaborate on ideas and learn more about technology and entrepreneurship as a whole. CODE also consults to technology startups through the Blank Center of entrepreneurship at Babson.</p>
+        <p>We are proud to say most of our residents are working on solving tough problems around the world they are passionate about through a startup. </p> 
+      
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
     <!-- Workshop Section -->
     <div class="container space-2">
       <div class="row justify-content-lg-between">
-        <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="col-lg-5 mb-5 mb-lg-0">
           <h2 class="font-weight-semi-bold">Learn.</h2>
           <h2 class="font-weight-semi-bold">Develop.</h2>
           <h2 class="font-weight-semi-bold">Launch.</h2>
@@ -83,13 +83,27 @@
         </div>
         <div class="col-lg-6">
         <p>CODE hosts a variety of workshops with partner companies. It allows students to learn on demand skills with real world projects under their belt. It allows them to launch their startup or find a job without a problem.</p>
-        <p>In this image we have Don Woodlock, head of HealthShare at Intersystems. Formerly he was CTO of GE’s now $19 Billion Healthcare Business with 54,000 employees.</p>
-       <p>CODE has also taught long term courses such as a python course. </p>
+        <img style="max-height:90%; max-width:100%;" src="../assets/local/don.png" alt="img description/reload your page">
+        <p class="mb-1" style="font-size: 80%">Don Woodlock, head of HealthShare at Intersystems shares his experience at a CODE event. Formerly he was the CTO of GE’s $19 Billion Healthcare Business.</p>
         </div>
       </div>
     </div>
     <!-- End Workshop Section -->
+    <!-- Hackathon Section -->
+    <div class="container space-2">
+      <div class="row justify-content-lg-between">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <h2 class="font-weight-semi-bold">Opportunities to apply your knowledge.</h2>
 
+        </div>
+        <div class="col-lg-6">
+        <p>Apart from competingin Hackathons ourselves, CODE also hosts learning hackathons where students compete to learn a new language or skill and build a notable project for an specific amount of time.</p>
+        <img style="max-height:90%; max-width:100%;" src="../assets/local/build.png" alt="img description/reload your page">        
+        <p class="mb-1" style="font-size: 80%">This is a team in a CODE building hackathon where students get to intensely focus on a project for an specific amount of time alongside their peers.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Hackathon Section -->
     <!-- Divider -->
     <div class="container">
       <div class="w-lg-65 mx-lg-auto">
@@ -98,167 +112,7 @@
     </div>
     <!-- End Divider -->
 
-    <!-- Team Section -->
-    <div class="container space-2 space-lg-3">
-      <!-- Title -->
-      <div class="w-md-80 w-lg-60 text-center mx-md-auto mb-9">
-        <span class="btn btn-xs btn-soft-success btn-pill mb-2">Our team</span>
-        <h2 class="h3 font-weight-semi-bold">Creative mind by people like you</h2>
-      </div>
-      <!-- End Title -->
-
-      <div class="row mx-n2 mb-5">
-        <div class="col-sm-6 col-lg-3 px-2 mb-3">
-          <!-- Team -->
-          <div class="card shadow transition-3d-hover p-4">
-            <div class="u-lg-avatar mb-4">
-              <img class="img-fluid rounded-circle" src="../assets/img/100x100/img1.jpg" alt="Image Description">
-            </div>
-
-            <small class="d-block text-secondary text-uppercase mb-1">Founder / CEO</small>
-            <h4 class="h5 text-lh-sm">Maria Muszynska</h4>
-            <p class="font-size-1">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-
-            <!-- Social Networks -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-facebook-f btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-google btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-twitter btn-icon__inner"></span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Social Networks -->
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="col-sm-6 col-lg-3 px-2 mb-3">
-          <!-- Team -->
-          <div class="card shadow transition-3d-hover p-4">
-            <div class="u-lg-avatar mb-4">
-              <img class="img-fluid rounded-circle" src="../assets/img/100x100/img3.jpg" alt="Image Description">
-            </div>
-
-            <small class="d-block text-secondary text-uppercase mb-1">Project Manager</small>
-            <h4 class="h5 text-lh-sm">Jack Wayley</h4>
-            <p class="font-size-1">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-
-            <!-- Social Networks -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-facebook-f btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-google btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-twitter btn-icon__inner"></span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Social Networks -->
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="col-sm-6 col-lg-3 px-2 mb-3 mb-sm-0">
-          <!-- Team -->
-          <div class="card shadow transition-3d-hover p-4">
-            <div class="u-lg-avatar mb-4">
-              <img class="img-fluid rounded-circle" src="../assets/img/100x100/img11.jpg" alt="Image Description">
-            </div>
-
-            <small class="d-block text-secondary text-uppercase mb-1">Product Designer</small>
-            <h4 class="h5 text-lh-sm">Emmely Jackson</h4>
-            <p class="font-size-1">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-
-            <!-- Social Networks -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-facebook-f btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-google btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-twitter btn-icon__inner"></span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Social Networks -->
-          </div>
-          <!-- End Team -->
-        </div>
-
-        <div class="col-sm-6 col-lg-3 px-2">
-          <!-- Team -->
-          <div class="card shadow transition-3d-hover p-4">
-            <div class="u-lg-avatar mb-4">
-              <img class="img-fluid rounded-circle" src="../assets/img/100x100/img8.jpg" alt="Image Description">
-            </div>
-
-            <small class="d-block text-secondary text-uppercase mb-1">Web designer</small>
-            <h4 class="h5 text-lh-sm">Mark McManus</h4>
-            <p class="font-size-1">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-
-            <!-- Social Networks -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-facebook-f btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-google btn-icon__inner"></span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-sm btn-icon btn-soft-secondary rounded" href="#">
-                  <span class="fab fa-twitter btn-icon__inner"></span>
-                </a>
-              </li>
-            </ul>
-            <!-- End Social Networks -->
-          </div>
-          <!-- End Team -->
-        </div>
-      </div>
-
-      <!-- Hire Us -->
-      <div class="text-center">
-        <div class="d-sm-inline-flex align-items-center bg-white shadow-soft rounded-pill p-2 pr-3">
-          <span class="btn btn-xs btn-primary btn-pill mb-2 mb-sm-0 mr-2">New</span>
-          <span class="d-block d-sm-inline-block">
-            We are hiring.
-            <a href="../pages/hire-us.html">Send your application.</a>
-          </span>
-        </div>
-      </div>
-      <!-- End Hire Us -->
-    </div>
-    <!-- End Team Section -->
-
+    
     <!-- Subscribe Section -->
     <div class="space-1">
       <div class="bg-img-hero" style="background-image: url(../assets/img/bg-shapes/bg5.png);">
@@ -266,10 +120,12 @@
           <!-- Title -->
           <div class="w-md-60 text-center mx-auto mb-7">
             <h2 class="font-weight-semi-bold">Stay in the know</h2>
-            <p>Get special offers on the latest developments from Front.</p>
+            <p>Get the latest news from Babson's tech scene.</p>
           </div>
           <!-- End Title -->
-
+        <transition>
+        
+        </transition>
           <!-- Subscribe Form -->
           <div class="w-md-75 w-lg-50 mx-md-auto">
             <form class="js-validate form-row">
@@ -286,7 +142,7 @@
               </div>
 
               <div class="col-4">
-                <button type="submit" class="btn btn-primary btn-pill btn-wide transition-3d-hover">Get Started</button>
+                <button type="submit" class="btn btn-success btn-pill btn-wide transition-3d-hover">Sign me up!</button>
               </div>
             </form>
           </div>
