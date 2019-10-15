@@ -5,44 +5,26 @@
 
       <div
         class="container d-md-flex align-items-md-center height-md-100vh position-relative space-top-2 space-bottom-3 space-top-md-3 space-top-lg-2 space-bottom-md-0">
-        <div class="w-lg-65 mb-5">
-          <div class="w-lg-65 w-xl-50 mb-5">
-            <!-- <h1 class="display-4 text-white">Sell your <strong class="font-weight-semi-bold">house</strong> online</h1> -->
+        <div class="form-group w-lg-65 mb-5">
+          <div class="w-lg-65 w-xl-50 mb-4">
             <h1 class="display-4 text-white" style="text-align: left; font-size: 390%"><span>Join our <strong
                   class="font-weight-semi-bold" >community</strong></span></h1>
           </div>
 
           <!-- Form -->
-          <form class="js-validate" action="https://usebasin.com/f/37b877e6c3a6" method="POST">
-            <div class="form-row mb-2">
+            <form class="js-validate validate" action="https://babsoncode.us19.list-manage.com/subscribe/post?u=3d116a6f505eae239db9472b2&amp;id=d5a1276109" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  target="_blank" novalidate>
 
-              <div class="col-6 col-md-5 mb-2">
-                <div class="js-form-message">
-                  <label class="sr-only" for="signupSrEmail">Email</label>
-                  <div class="input-group">
-                    <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Email"
-                      aria-label="Email" required data-msg="Please enter a valid email address.">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 mb-2">
-                <button type="submit" class="btn btn-block btn-success transition-3d-hover">Signup</button>
+            <div>
+              <div class="col-md-3 mb-2" style="padding-right: 0px; padding-left: 0px;">
+                <button type="submit" value="Subscribe" name="subscribe" style="color: white; font-weight: bold; font-size:120%; width:100%;" class="btn-lg btn-warning">
+                Sign Up
+                <span class="fas fa-angle-right ml-1"></span>
+                </button>
+                
               </div>
             </div>
 
-            <!-- Checkbox -->
-            <div class="js-form-message">
-              <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
-                <input type="checkbox" class="custom-control-input" id="termsCheckbox" name="termsCheckbox" required
-                  data-msg="Please accept our Terms and Conditions.">
-                <label class="custom-control-label text-white" for="termsCheckbox">
-                  <small>
-                    I agree to receive emails (We don't spam!)
-                  </small>
-                </label>
-              </div>
-            </div>
-            <!-- End Checkbox -->
+            
           </form>
           <!-- End Form -->
         </div>
@@ -323,7 +305,10 @@
                 <h3 class="h4 mb-3">Apply for Housing</h3>
                 <p class="mb-4">Our housing application are open! All applications are due October 15th.</p>
                 <a class="btn btn-sm btn-soft-success transition-3d-hover" href="https://babsoncode1.typeform.com/to/infovT">
-                Apply</a>
+                Apply
+                <span class="fas fa-angle-right ml-2"></span>
+
+                </a>
 
               </div>
             </article>

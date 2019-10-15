@@ -54,16 +54,10 @@
             </div>
 
             <!-- Subscribe Form -->
-            <form class="js-validate js-form-message" action="https://usebasin.com/f/37b877e6c3a6" method="POST">
-              <label class="sr-only" for="subscribeSrEmail">Your email address</label>
-              <div class="input-group">
-                <input type="email" class="form-control" name="email" id="subscribeSrEmail"
-                  placeholder="Your email address" aria-label="Your email address" aria-describedby="subscribeButton"
-                  required data-msg="Please enter a valid email address." data-error-class="u-has-error"
-                  data-success-class="u-has-success">
-                <div class="input-group-append">
-                  <button class="btn btn-soft-success" type="submit" id="subscribeButton">Subscribe</button>
-                </div>
+            <form class="js-validate validate" action="https://babsoncode.us19.list-manage.com/subscribe/post?u=3d116a6f505eae239db9472b2&amp;id=d5a1276109" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"  target="_blank" novalidate>
+              <label class="sr-only" for="subscribeSrEmail">Your email address</label>  
+                <div class="clear">
+                <button class="btn btn-success" type="submit" id="subscribeButton">Subscribe</button>
               </div>
             </form>
             <!-- End Subscribe Form -->
